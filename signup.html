@@ -2,31 +2,33 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title> Monika BookTok </title>
+        <title> Register Monika BookTok </title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="loginForm">
-            <h1>Login To BookTok </h1>
+            <h1>Register To BookTok </h1>
             <form method="post">
                 <div class="txt_field">
-                    <input type="text" required>
+                    <input type="email" required>
                     <span></span>
-                    <label>Username</label>
+                    <label>Email / Username</label>
                 </div>
                 <div class="txt_field">
                     <input type="password" required>
                     <span></span>
                     <label>Password</label>
                 </div>
-                <div class="pass">Forgot Password?</div>
-                <input id="buttonSubmit" class="buttonForm" type="button" value="Login">
-                <input id="buttonReset" class="buttonForm" type="button" value="Reset">
-                <input id="buttonForgotPassword" class="buttonForm" type="button" value="Forgot Password">
-                <div class="signup_link">
-                    Not a member? <a href="signup.html">Register</a>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Confirm Password</label>
                 </div>
-                <div><input type="checkbox"/> I agree I have understood all the policy.</div>
+                <input id="buttonRegister" class="buttonForm" type="button" value="Register">
+                <input id="buttonReset" class="buttonForm" type="button" value="Reset">
+                <div class="signup_link">
+                    Not a member? <a href="index.html">Login</a>
+                </div>
             </form>
         </div>
     </body>

@@ -108,6 +108,9 @@ input[type="Submit"]:hover {
   background: red;
 }
 
+#buttonRegister{
+  background: #0b57d0;
+}
 #buttonForgotPassword {
   background: green;
 }
