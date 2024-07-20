@@ -1,0 +1,37 @@
+body{
+    background-image: url("cosm.jpg");
+    background-size: cover;
+}
+
+#productListContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border-radius: 10px; */
+  padding: 50px;
+  border: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#productList {
+  width: 300px;
+  height: 600px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#orderSummary {
+  width: 300px;
+  height: 600px;
+}
+
+.orderSummaryItems{
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+    margin-bottom: 30px;
+}
